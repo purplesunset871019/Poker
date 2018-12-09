@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
             TextView pokerText;
             public PokerHolder(View itemView) {
                 super(itemView);
-                pokerText = itemView.findViewById(android.R.id.text1);
+                pokerText = itemView.findViewById(R.id.row_text);
             }
         }
     }
